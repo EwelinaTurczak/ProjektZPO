@@ -1,0 +1,62 @@
+{
+  "city": "Warszawa",
+  "date": "2020-02-11",
+  "measurements": [
+    {
+      "parameter": "bc",
+      "count": "1",
+      "minValue": "0.577",
+      "maxValue": "0.577",
+      "avgValue": "0.58",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "no2",
+      "count": "4",
+      "minValue": "12.22",
+      "maxValue": "32.57",
+      "avgValue": "20.52",
+      "stdValue": "7.77"
+    },
+    {
+      "parameter": "o3",
+      "count": "4",
+      "minValue": "51.22",
+      "maxValue": "62.3",
+      "avgValue": "56.54",
+      "stdValue": "3.95"
+    },
+    {
+      "parameter": "co",
+      "count": "1",
+      "minValue": "694.0",
+      "maxValue": "694.0",
+      "avgValue": "694.00",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "pm10",
+      "count": "6",
+      "minValue": "5.46",
+      "maxValue": "11.24",
+      "avgValue": "7.02",
+      "stdValue": "1.95"
+    },
+    {
+      "parameter": "pm25",
+      "count": "6",
+      "minValue": "4.98",
+      "maxValue": "10.66",
+      "avgValue": "6.48",
+      "stdValue": "1.91"
+    },
+    {
+      "parameter": "so2",
+      "count": "1",
+      "minValue": "9.99",
+      "maxValue": "9.99",
+      "avgValue": "9.99",
+      "stdValue": "0.00"
+    }
+  ]
+}

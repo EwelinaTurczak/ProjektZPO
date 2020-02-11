@@ -1,0 +1,62 @@
+{
+  "city": "Opole",
+  "date": "2020-02-11",
+  "measurements": [
+    {
+      "parameter": "bc",
+      "count": "1",
+      "minValue": "0.20255",
+      "maxValue": "0.20255",
+      "avgValue": "0.20",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "no2",
+      "count": "1",
+      "minValue": "16.4415",
+      "maxValue": "16.4415",
+      "avgValue": "16.44",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "o3",
+      "count": "1",
+      "minValue": "64.3803",
+      "maxValue": "64.3803",
+      "avgValue": "64.38",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "co",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "pm10",
+      "count": "1",
+      "minValue": "6.10255",
+      "maxValue": "6.10255",
+      "avgValue": "6.10",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "pm25",
+      "count": "1",
+      "minValue": "3.49732",
+      "maxValue": "3.49732",
+      "avgValue": "3.50",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "so2",
+      "count": "1",
+      "minValue": "2.18502",
+      "maxValue": "2.18502",
+      "avgValue": "2.19",
+      "stdValue": "0.00"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "city": "Paris",
+  "date": "2020-02-11",
+  "measurements": [
+    {
+      "parameter": "bc",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "no2",
+      "count": "12",
+      "minValue": "8.6",
+      "maxValue": "35.5",
+      "avgValue": "19.55",
+      "stdValue": "9.39"
+    },
+    {
+      "parameter": "o3",
+      "count": "2",
+      "minValue": "70.5",
+      "maxValue": "72.3",
+      "avgValue": "71.40",
+      "stdValue": "0.90"
+    },
+    {
+      "parameter": "co",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "pm10",
+      "count": "6",
+      "minValue": "11.8",
+      "maxValue": "28.5",
+      "avgValue": "21.68",
+      "stdValue": "6.43"
+    },
+    {
+      "parameter": "pm25",
+      "count": "1",
+      "minValue": "8.0",
+      "maxValue": "8.0",
+      "avgValue": "8.00",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "so2",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    }
+  ]
+}

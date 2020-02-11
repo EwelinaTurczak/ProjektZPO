@@ -1,0 +1,62 @@
+{
+  "city": "Bydgoszcz",
+  "date": "2020-02-04",
+  "measurements": [
+    {
+      "parameter": "bc",
+      "count": "1",
+      "minValue": "0.93",
+      "maxValue": "0.93",
+      "avgValue": "0.93",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "no2",
+      "count": "2",
+      "minValue": "48.0",
+      "maxValue": "58.0",
+      "avgValue": "53.00",
+      "stdValue": "5.00"
+    },
+    {
+      "parameter": "o3",
+      "count": "1",
+      "minValue": "14.0",
+      "maxValue": "14.0",
+      "avgValue": "14.00",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "co",
+      "count": "2",
+      "minValue": "671.0",
+      "maxValue": "1558.0",
+      "avgValue": "1114.50",
+      "stdValue": "443.50"
+    },
+    {
+      "parameter": "pm10",
+      "count": "2",
+      "minValue": "25.5",
+      "maxValue": "34.2",
+      "avgValue": "29.85",
+      "stdValue": "4.35"
+    },
+    {
+      "parameter": "pm25",
+      "count": "2",
+      "minValue": "17.9",
+      "maxValue": "23.2",
+      "avgValue": "20.55",
+      "stdValue": "2.65"
+    },
+    {
+      "parameter": "so2",
+      "count": "1",
+      "minValue": "3.5",
+      "maxValue": "3.5",
+      "avgValue": "3.50",
+      "stdValue": "0.00"
+    }
+  ]
+}

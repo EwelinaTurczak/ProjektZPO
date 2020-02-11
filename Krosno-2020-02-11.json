@@ -1,0 +1,62 @@
+{
+  "city": "Krosno",
+  "date": "2020-02-11",
+  "measurements": [
+    {
+      "parameter": "bc",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "no2",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "o3",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "co",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "pm10",
+      "count": "1",
+      "minValue": "9.68315",
+      "maxValue": "9.68315",
+      "avgValue": "9.68",
+      "stdValue": "0.00"
+    },
+    {
+      "parameter": "pm25",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    },
+    {
+      "parameter": "so2",
+      "count": "0",
+      "minValue": "brak danych",
+      "maxValue": "brak danych",
+      "avgValue": "brak danych",
+      "stdValue": "brak danych"
+    }
+  ]
+}

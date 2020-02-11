@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <VBox prefHeight="29.0" prefWidth="842.0">
+         <children>
+            <HBox prefHeight="76.0" prefWidth="842.0">
+               <children>
+                  <Label fx:id="labelMiasto" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" text="Podaj nazwę miasta:">
+                     <HBox.margin>
+                        <Insets left="30.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="poleMiasto">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onMouseClicked="#pobierzDaneMiastaZSerwera" text="Wczytaj">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label fx:id="labelMiasto1" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" text="Podaj nazwę pliku:">
+                     <HBox.margin>
+                        <Insets left="390.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="nazwaPliku">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onMouseClicked="#pobierzDaneMiastaZPliku" text="Wczytaj">
+                     <HBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="1200.0">
+         <children>
+            <TableView fx:id="tabelaWyniki" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="297.0" prefWidth="789.0">
+              <columns>
+                <TableColumn fx:id="columnParametry" prefWidth="75.0" text="Parametr">
+                   <cellValueFactory>
+                      <PropertyValueFactory property="parameter" />
+                   </cellValueFactory>
+                </TableColumn>
+                <TableColumn fx:id="columnCount" prefWidth="124.0" text="Liczba pomiarów">
+                   <cellValueFactory>
+                      <PropertyValueFactory property="count" />
+                   </cellValueFactory>
+                </TableColumn>
+                 <TableColumn fx:id="columnMin" prefWidth="126.0" text="Minimalna wartość">
+                    <cellValueFactory>
+                       <PropertyValueFactory property="minValue" />
+                    </cellValueFactory>
+                 </TableColumn>
+                  <TableColumn fx:id="columnMax" prefWidth="136.0" text="Maksymalna wartość">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="maxValue" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="columnAvg" prefWidth="157.0" text="Średnia wartość">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="avgValue" />
+                     </cellValueFactory>
+                  </TableColumn>
+                  <TableColumn fx:id="columnStd" prefWidth="172.0" text="Odchylenie standardowe">
+                     <cellValueFactory>
+                        <PropertyValueFactory property="stdValue" />
+                     </cellValueFactory>
+                  </TableColumn>
+              </columns>
+               <HBox.margin>
+                  <Insets left="200.0" top="30.0" />
+               </HBox.margin>
+            </TableView>
+         </children>
+      </HBox>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="1200.0">
+         <children>
+            <Label text="Wybierz parametr do zilustrowania:">
+               <HBox.margin>
+                  <Insets left="350.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="comboJakiParametrNarysowac" minWidth="-Infinity" onAction="#rysujWykres" prefWidth="200.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="5.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="1200.0">
+         <children>
+            <BarChart fx:id="wykresSlupkowy" animated="false" styleClass="default-color1" stylesheets="@view.css">
+              <xAxis>
+                <CategoryAxis prefHeight="44.0" prefWidth="1142.0" side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis prefHeight="246.0" prefWidth="46.0" side="LEFT" />
+              </yAxis>
+            </BarChart>
+         </children>
+      </VBox>
+   </children>
+</VBox>

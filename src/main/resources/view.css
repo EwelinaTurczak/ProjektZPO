@@ -1,0 +1,19 @@
+.chart-bar {
+    -fx-bar-fill: grey;
+}
+.data3.chart-bar{
+    -fx-bar-fill: #25c224;
+}
+.data4.chart-bar{
+    -fx-bar-fill: #b7ff66;
+}
+.data5.chart-bar{
+    -fx-bar-fill: #f2ef00;
+}
+.data6.chart-bar{
+    -fx-bar-fill: #f29901;
+}
+.data7.chart-bar{
+    -fx-bar-fill: #f2371a;
+}
+
